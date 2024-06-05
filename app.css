@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('imag.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game,
+#jogo {
+    text-align: center;
+    color: #fff;
+    width: 80%;
+    /* Define a largura inicial */
+    margin: auto;
+    /* Centraliza o conteúdo */
+}
+
+#link {
+    text-decoration: none;
+    color: #00ff08;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilos para telas grandes */
+@media screen and (min-width: 600px) {
+
+    #game,
+    #jogo {
+        width: 600px;
+        /* Define a largura para telas grandes */
+    }
+}
+
+/* Estilos para telas pequenas */
+@media screen and (max-width: 400px) {
+
+    #game,
+    #jogo {
+        width: 100%;
+        /* Define a largura para telas pequenas */
+        padding: 10px;
+        /* Adiciona um pouco de espaço ao redor do conteúdo */
+    }
+}
