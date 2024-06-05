@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+    <div id="game">
+        <h1>Jogo de Adivinhação</h1>
+        <p>Adivinhe um número entre 1 e 100</p>
+        <p>Você tem 5 chances</p>
+        <input id="guess" type="number" min="1" max="100" oninput="clearMessage()">
+        <button onclick="checkGuess()">Adivinhar</button>
+        <p id="message"></p>
+        <button onclick="clearMessage()">Apagar Mensagem</button>
+        <p id="restartMessage"></p>
+    </div>
+
+
+    <script src="app.js"></script>
+    <footer>
+        <a href="index2.html" id="link">Acesse o nosso jogo de tabuadas</a>
+    </footer>
+
+</body>
+
+</html>
